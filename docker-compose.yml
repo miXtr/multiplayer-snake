@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  snake:
+   image: snake:latest
+   ports:
+     - "22222:22222"
+   restart: always
